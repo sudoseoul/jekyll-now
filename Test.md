@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Test
-permalink: /test/
+permalink: /photo
 ---
 
-It's working!
-
-### Does it?
+### Photography
