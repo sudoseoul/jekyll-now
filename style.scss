@@ -203,7 +203,7 @@ nav {
     font-weight: 300;
     letter-spacing: 1px;
    
-    &:active {
+    &:current {
       font-weight: bold;
       font-color: $blue;
     }
