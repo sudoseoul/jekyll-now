@@ -11,6 +11,9 @@ layout: default
        <div class="entry">
          {{ post.excerpt }}
        </div>
+       <div class="date">
+         {{ page.date | date: "%B %e, %Y" }}
+       </div>
      </article>
    {% endfor %}
  </div>
