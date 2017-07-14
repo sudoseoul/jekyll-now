@@ -27,7 +27,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1100px;
   padding: 0 10px;
   width: 100%;
 }
@@ -180,14 +180,14 @@ img {
   cursor: pointer;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 nav {
   float: right;
-  margin: 0.875em auto 0.875em 0; // @TODO: Vertically middle align
+  margin: 1.75em 0 1.75em 0; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 1rem;
 
   @include mobile {
     float: none;
