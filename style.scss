@@ -7,7 +7,7 @@
 
 @import "reset";
 @import "variables";
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -153,11 +153,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 60px 0;
 
   @include mobile {
     text-align: center;
@@ -166,7 +166,7 @@ img {
 
 .site-info {
   float: left;
-
+  margin: 0.875em 0;
   @include mobile {
     float: none;
     display: block;
@@ -179,13 +179,13 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 28px;
 }
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin: 0.875em auto 0.875em 0; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
