@@ -32,7 +32,7 @@ body {
   max-width: 1200px;
   padding: 0 10px;
   width: 100%;
-  @media screen and (min-width: 641px) and (max-width: 1412px)
+  @media screen and (min-width: 641px) and (max-width: 1250px)
   {
      padding: 0 7.5%;
   }
@@ -126,6 +126,7 @@ img {
 .date {
   padding-left: 5px;
   font-style: italic;
+  font-size: 10px;
   color: #686868;
 }
 
