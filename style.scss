@@ -31,7 +31,7 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-  @media screen (max-width: 1250px)
+  @media screen and (max-width: 1250px)
   {
      padding: 0 7.5%;
   }
