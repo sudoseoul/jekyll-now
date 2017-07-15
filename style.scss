@@ -233,6 +233,9 @@ nav {
 //
 
 .page-title, .post-title {
+  a {
+    color: $darkGray;
+  }
 }
 
 .posts > .post {
