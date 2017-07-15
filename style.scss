@@ -235,6 +235,10 @@ nav {
 .page-title, .post-title {
   a {
     color: $darkGray;
+
+    &:hover, &:active {
+    color: $blue;
+  }
   }
 }
 
