@@ -15,7 +15,7 @@ permalink: /idea
        </div>
         
        <div class="entry">
-         {{ post.excerpt }}
+         {{ post.excerpt | truncatewords:20 }}
        </div>
      </article>
    {% endfor %}
