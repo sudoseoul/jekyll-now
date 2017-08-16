@@ -135,11 +135,6 @@ img {
   color: #686868;
 }
 
-.backbutton {
-  color: #686868;
-  text-align: right;
-}
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -271,6 +266,14 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+.post-buttons {
+  text-align: right;
+	
+ .backbutton {
+  color: #686868;
+}
 }
 
 .wrapper-footer {
