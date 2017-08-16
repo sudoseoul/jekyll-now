@@ -135,6 +135,11 @@ img {
   color: #686868;
 }
 
+.backbutton {
+  padding-top: 10px;
+  color: #686868;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -270,10 +275,7 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
+ }
 
 footer {
   padding: 20px 0;
