@@ -9,7 +9,7 @@
 @import "variables";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -24,7 +24,7 @@ html {
 body {
   background: $white;
   font: 18px/1.4;
-  font-family: 'Open Sans', 'Noto Sans KR', sans-serif;
+  font-family: 'Open Sans', 'Nanum Gothic', sans-serif;
   color: $black;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', 'Noto Sans KR', sans-serif;
+  font-family: 'Open Sans', 'Nanum Gothic', sans-serif;
   color: $black;
   font-weight: bold;
 
@@ -201,7 +201,7 @@ img {
 nav {
   float: right;
   margin: 1.75em 0 1.75em 0; // @TODO: Vertically middle align
-  font-family: 'Open Sans', 'Noto Sans KR', sans-serif;
+  font-family: 'Open Sans', 'Nanum Gothic', sans-serif;
   font-size: 1rem;
 
   @include mobile {
