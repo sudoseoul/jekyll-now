@@ -164,10 +164,11 @@ img {
 }
 
 .masthead {
+  text-align: center;
   padding: 5.25em 0 3em 0;
 
   @include mobile {
-    text-align: center;
+    text-align: left;
     padding: 2.625em 0 1.5em 0;
   }
 }
