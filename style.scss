@@ -30,9 +30,16 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 640px;
-  padding: 0 10px;
+  max-width: 1200px;
   width: 100%;
+  @media screen and (min-width: 641px) and (max-width: 1250px)
+  {
+     padding: 0 7.5%;
+  }
+  @include mobile
+  {
+	  padding: 0 4.5%;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {
